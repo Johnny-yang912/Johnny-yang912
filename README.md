@@ -13,7 +13,7 @@
 
 - 🛒 **購物行為分析（機器學習多模型比較）**  
   找出影響會員加入的特徵，最佳模型 F1-score 達 0.799。  
-  [查看專案](https://github.com/Johnny-yang912/Shopping-Trends-analysis-portfolio)\
+  [查看專案](https://github.com/Johnny-yang912/Shopping-Trends-analysis-portfolio)
 
 - 🛒 **房地產交易資料建模實作（時間序列特徵工程與 Pipeline 建模）**  
   整合多來源房地產與城市經濟資料，進行時間序列特徵工程與 Pipeline 建模，建立可重複使用的預測流程；
