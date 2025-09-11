@@ -20,7 +20,7 @@
   透過多次優化使模型分數從 0 → 73 → 90 → 93，展現資料工程與模型改進能力。  
   [查看專案](https://github.com/Johnny-yang912/estate--analysis-portfolio)
 
-- 🏷 **商品銷售預測（Kaggle 比賽｜資料診斷專案）**  
+- 🏷 **商品銷售預測（特徵工程與Pipeline建模｜資料診斷專案）**  
   驗證現有資料是否能支撐銷售預測，建立 baseline 與多種模型測試，發現所有模型表現皆不如 baseline，判斷為資料缺乏有效訊號，提出需補充「促銷活動、假日、外部經濟數據」等建議，展現忠於數據的專業判斷力。  
   [查看專案](https://github.com/Johnny-yang912/sales-analysis-portfolio)
 
