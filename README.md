@@ -15,6 +15,12 @@
   找出影響會員加入的特徵，最佳模型 F1-score 達 0.799。  
   [查看專案](https://github.com/Johnny-yang912/Shopping-Trends-analysis-portfolio)
 
+- 🛍️ **購物行為分析 (特徵工程+Pipeline機器學習建模與部署)**
+  使用隨機森林模型預測潛在會員，最佳化後 Recall ≥ 0.9、Precision 約 0.63。  
+  將最終模型封裝成 FastAPI API，並支援本機與 Docker 部署，完成端到端資料科學流程。
+  [查看專案](https://github.com/Johnny-yang912/ml-pipeline-and-deployment)
+
+
 - 🛒 **房地產交易資料建模實作（時間序列特徵工程與 Pipeline 建模）**  
   整合多來源房地產與城市經濟資料，進行時間序列特徵工程與 Pipeline 建模，建立可重複使用的預測流程；
   透過多次優化使模型分數從 0 → 73 → 90 → 93，展現資料工程與模型改進能力。  
