@@ -11,7 +11,7 @@
   以 Sharpe Ratio、CVaR 優化資產配置，Sharpe ratio 從 1.08 提升至 1.24。  
   [查看專案](https://github.com/Johnny-yang912/stock-analysis-portfolio)
 
-- 🛒 **購物行為分析（機器學習多模型比較）**  
+- 🛒 **購物行為分析建模（機器學習多模型比較）**  
   找出影響會員加入的特徵，最佳模型 F1-score 達 0.799。  
   [查看專案](https://github.com/Johnny-yang912/Shopping-Trends-analysis-portfolio)
 
