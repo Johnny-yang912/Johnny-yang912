@@ -21,9 +21,9 @@
   [查看專案](https://github.com/Johnny-yang912/ml-pipeline-and-deployment)
 
 
-- 🛒 **房地產交易資料建模實作（時間序列特徵工程與 Pipeline 建模）**  
-  整合多來源房地產與城市經濟資料，進行時間序列特徵工程與 Pipeline 建模，建立可重複使用的預測流程；
-  透過多次優化使模型分數從 0 → 73 → 90 → 93，展現資料工程與模型改進能力。  
+- 🛒 **🏠 房地產交易金額資料科學建模（時間序列特徵工程 + Pipeline 建模 + API 部署）**  
+  以 Kaggle 房地產交易資料為基礎，進行時間序列特徵工程 (Lag / Rolling) 與 Pipeline 建模，建構可重複使用的預測流程。
+  經多次模型比較與超參數優化，最終分數從 0 → 89 → 96。專案同時完成 FastAPI API 部署，展現從特徵工程到實務應用的完整技術鏈。
   [查看專案](https://github.com/Johnny-yang912/estate--analysis-portfolio)
 
 - 🏷 **商品銷售預測（特徵工程與Pipeline建模｜資料診斷專案）**  
