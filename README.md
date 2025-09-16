@@ -1,7 +1,7 @@
 ## Hi there 👋
 # Data Analysis And Machine Learning Portfolio
 
-這是我的資料分析作品集，包含以下專案：
+這是我的資料分析與機器學習作品集，包含以下專案：
 
 - 📉 **電信客戶流失分析（SQL + Power BI）**  
   找出合約與服務使用率為關鍵因子，提出降低流失率策略。  
