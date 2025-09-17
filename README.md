@@ -3,7 +3,7 @@
 
 這是我的資料分析與機器學習作品集，包含以下專案：
 
-- 💳 信用卡交易詐欺偵測（Pipeline建模 + 特徵工程 + API 部署）  
+- **💳 信用卡交易詐欺偵測（Pipeline建模 + 特徵工程 + API 部署）**  
   以 Kaggle 模擬資料為基礎，逐步完成 **baseline → 時間特徵工程 → 地理特徵工程 → 調參與調整閾值**，最終模型達成 **PR-AUC：0.8477、F2：0.7642**。  
   專案完整涵蓋 **Pipeline 建模、特徵工程設計與 FastAPI 部署**，展現從資料前處理到模型應用的完整機器學習流程。  
   [查看專案](https://github.com/Johnny-yang912/CreditCard-TransactionFraud-PredictionModel)
