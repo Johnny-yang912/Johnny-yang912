@@ -13,7 +13,7 @@
   經多次模型比較與超參數優化，最終分數從 0 → 89 → 96。專案同時完成 FastAPI API 部署，展現從特徵工程到實務應用的完整技術鏈。   
   [查看專案](https://github.com/Johnny-yang912/estate--analysis-portfolio)
   
-  - 🛒 **購物行為分析（機器學習多模型比較）**  
+- 🛒 **購物行為分析（機器學習多模型比較）**  
   找出影響會員加入的特徵，最佳模型 F1-score 達 0.799。  
   [查看專案](https://github.com/Johnny-yang912/Shopping-Trends-analysis-portfolio)
 
