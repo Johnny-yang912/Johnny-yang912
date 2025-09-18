@@ -8,7 +8,7 @@
   專案完整涵蓋 **Pipeline 建模、特徵工程設計與 FastAPI 部署**，展現從資料前處理到模型應用的完整機器學習流程。  
   [查看專案](https://github.com/Johnny-yang912/CreditCard-TransactionFraud-PredictionModel)
   
-- 🛒 **🏠 房地產交易金額資料科學建模（時間序列特徵工程 + Pipeline 建模 + API 部署）**  
+- 🛒 **🏠 房地產交易金額預測模型（時間序列特徵工程 + Pipeline 建模 + API 部署）**  
   以 Kaggle 房地產交易資料為基礎，進行**時間序列特徵工程 (Lag / Rolling) 與 Pipeline 建模**，建構可重複使用的預測流程。
   經多次模型比較與超參數優化，最終分數從 **0 → 89 → 96**。專案同時完成 **FastAPI API 部署**，展現從特徵工程到實務應用的完整技術鏈。   
   [查看專案](https://github.com/Johnny-yang912/estate--analysis-portfolio)
