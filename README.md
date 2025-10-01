@@ -19,7 +19,7 @@
 
 - 🛍️ **購物行為分析建模 (特徵工程+Pipeline機器學習建模與部署)**       
   使用隨機森林模型**預測潛在會員**，最佳化後 **Recall ≥ 0.9、Precision 約 0.63**。  
-  將最終模型**封裝成 FastAPI API，並支援本機與 Docker 部署**，完成端到端資料科學流程。      
+  將最終模型**封裝成 FastAPI API部署**，完成端到端資料科學流程。      
   [查看專案](https://github.com/Johnny-yang912/ml-pipeline-and-deployment)
   
 - 📉 **電信客戶流失分析（SQL + Power BI）**  
