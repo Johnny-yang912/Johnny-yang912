@@ -34,7 +34,7 @@
   驗證現有資料是否能支撐銷售預測，建立 baseline 與多種模型測試，發現所有模型表現皆不如 baseline，判斷為資料缺乏有效訊號，提出需補充「促銷活動、假日、外部經濟數據」等建議，展現忠於數據的專業判斷力。  
   [查看專案](https://github.com/Johnny-yang912/sales-analysis-portfolio)
 
-  - **🧩簡易ETL流程(ETL+自訂OOP+Airflow排程+Docker封裝**  
+- **🧩簡易ETL流程(ETL+自訂OOP+Airflow排程+Docker封裝**  
   本專案展示了 ETL 與 Airflow 的最基本流程：**本地下載資料 → 進行轉換 → 輸入 SQLite**。透過Airflow展示ETL流程並以OOP設計Transformer，驗證自動化轉換與Pipeline整合可行性。
   [查看專案](https://github.com/Johnny-yang912/easy_ETL_and_OOP)
 
