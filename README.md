@@ -38,15 +38,6 @@ Tech: Airflow · Docker · Python · SQLite
 
 ---
 
-### 📊 Telecom Customer Churn Analysis
-SQL-based analysis identifying contract terms and service usage as key churn factors,
-with Power BI dashboard.
-
-Tech: SQL · Power BI
-→ [View Project](https://github.com/Johnny-yang912/data-analysis-portfolio)
-
----
-
 ### 🔍 Credit Card Fraud Detection
 End-to-end ML pipeline: baseline → time features → geo features → threshold tuning.
 Final model: PR-AUC 0.8477 · F2 0.7642.
@@ -55,4 +46,12 @@ Covers full ML workflow from feature engineering to FastAPI deployment.
 Tech: Scikit-Learn · Pandas · FastAPI · Python
 → [View Project](https://github.com/Johnny-yang912/CreditCard-TransactionFraud-PredictionModel)
 
+---
+
+### 📊 Telecom Customer Churn Analysis
+SQL-based analysis identifying contract terms and service usage as key churn factors,
+with Power BI dashboard.
+
+Tech: SQL · Power BI
+→ [View Project](https://github.com/Johnny-yang912/data-analysis-portfolio)
 
