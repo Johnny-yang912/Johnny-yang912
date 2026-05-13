@@ -1,5 +1,7 @@
 # 資料工程與後端工程作品集
 
+[English Version](./README.md)
+
 專注於資料工程與後端開發。
 以 Python · FastAPI · PostgreSQL · SQLAlchemy 建構貼近生產環境的資料管道與 API。
 
