@@ -37,17 +37,17 @@ ETL 基礎練習，展示本地資料的轉換與寫入流程。
 
 ---
 
-### 📊 電信客戶流失分析
-找出合約與服務使用率為關鍵因子，提出降低流失率策略。
-
-技術：SQL · Power BI
-→ [查看專案](https://github.com/Johnny-yang912/data-analysis-portfolio)
-
----
-
 ### 🔍 信用卡交易詐欺偵測
 以 Kaggle 模擬資料為基礎，逐步完成 baseline → 時間特徵工程 → 地理特徵工程 → 調參與調整閾值，最終模型達成 PR-AUC：0.8477、F2：0.7642。
 專案完整涵蓋 Pipeline 建模、特徵工程設計與 FastAPI 部署，展現從資料前處理到模型應用的完整機器學習流程。
 
 技術：Scikit-Learn · Pandas · FastAPI · Python
 → [查看專案](https://github.com/Johnny-yang912/CreditCard-TransactionFraud-PredictionModel)
+
+---
+
+### 📊 電信客戶流失分析
+找出合約與服務使用率為關鍵因子，提出降低流失率策略。
+
+技術：SQL · Power BI
+→ [查看專案](https://github.com/Johnny-yang912/data-analysis-portfolio)
