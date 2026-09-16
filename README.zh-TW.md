@@ -12,17 +12,13 @@
 ### 🏗️ 電商資料擷取平台
 模擬真實電商訂單流程的資料擷取後端，設計貼近生產環境的工程實務。
 
-目前資料流：
-POST /orders → Raw Table → Background Task → 清洗驗證 → ODS
+一條從攝入到分析的資料管線，以電商訂單為場域：不可信的入站資料經過分層品質契約，逐步轉為可信的分析資料，而且每一次品質判斷的演進都可稽核。
 
-未來架構方向：
-POST /orders → Queue → Worker → Raw Table → 清洗驗證 → ODS
-→ Star Schema（dim / fact）→ 聚合運算 → BI
+資料流：POST /orders → Raw → Celery Worker（CAS 認領、冪等寫入）→ ODS + quality_events → Airflow → BigQuery → dbt（stg → int → dim / fct → rpt）→ Looker Studio
 
-針對高併發、worker 競爭、系統 crash、資料格式錯誤等場景進行壓測，
-驗證 pipeline 在各種故障模式下的穩定性、可靠性與資料正確性。
+驗證了高併發、重複提交、髒資料與 worker SIGKILL 崩潰恢復等場景；445 個單元／整合測試、93 個 dbt 測試；54 條 ADR 記錄每個決策與被否決的替代方案。
 
-技術：Python · SQL · FastAPI · PostgreSQL · SQLAlchemy
+技術：Python · SQL · FastAPI · PostgreSQL · Celery · Redis · Airflow · BigQuery · dbt · OpenTelemetry
 → [查看專案](https://github.com/Johnny-yang912/ecommerce-data-ingestion-platform)
 
 ---
