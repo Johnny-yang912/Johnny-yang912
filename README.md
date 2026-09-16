@@ -10,20 +10,13 @@ Building production-oriented data pipelines and APIs with Python · FastAPI · P
 ## Projects
 
 ### 🏗️ E-Commerce Data Ingestion Platform
-A production-oriented data ingestion backend simulating real-world e-commerce order flow.
+An end-to-end data pipeline from ingestion to analytics, using e-commerce orders as the domain. Untrusted inbound data is turned into trusted analytical data through layered quality contracts, and every change to a quality judgment stays auditable.
 
-Current data flow:
-POST /orders → Raw Table → Background Task → Cleaning & Validation → ODS
+Data flow: POST /orders → Raw → Celery Worker (CAS claim, idempotent write) → ODS + quality_events → Airflow → BigQuery → dbt (stg → int → dim / fct → rpt) → Looker Studio
 
-Future architecture:
-POST /orders → Queue → Worker → Raw Table → Cleaning & Validation → ODS
-→ Star Schema (dim / fact) → Aggregation → BI
+Verified under high concurrency, duplicate submissions, malformed data, and worker SIGKILL crash recovery. It has 445 unit/integration tests and 93 dbt tests, and 54 ADRs record each decision along with the alternatives that were rejected.
 
-Load tested across scenarios including high concurrency, worker contention, system crash,
-and malformed data — validating pipeline stability, reliability, and data correctness
-under various failure modes.
-
-Tech: Python · SQL · FastAPI · PostgreSQL · SQLAlchemy
+Tech: Python · SQL · FastAPI · PostgreSQL · Celery · Redis · Airflow · BigQuery · dbt · OpenTelemetry
 → [View Project](https://github.com/Johnny-yang912/ecommerce-data-ingestion-platform)
 
 ---
