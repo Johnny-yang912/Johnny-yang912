@@ -3,7 +3,7 @@
 [繁體中文版](./README.zh-TW.md)
 
 Focused on data engineering and backend development.
-Building production-oriented data pipelines and APIs with Python · FastAPI · PostgreSQL · SQLAlchemy.
+Building production-oriented data pipelines and APIs with Python · SQL · FastAPI · PostgreSQL · Airflow · BigQuery · dbt.
 
 ---
 
