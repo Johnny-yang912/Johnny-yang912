@@ -23,6 +23,18 @@
 
 ---
 
+### 🏭 製造報工資料擷取管線（.NET 版）
+
+以 ASP.NET Core 重新實作電商資料擷取平台的攝入端，並將資料領域遷移至製造業工單報工。
+
+驗證同一套攝入架構在不同技術棧與資料領域下的可移植性：保留快速落地、CAS 認領、錯誤只標記不拒絕的核心設計；以行程內的 BackgroundService + Channel 取代 Celery + Redis，並記錄兩者在崩潰恢復與突發流量緩衝上的取捨。
+
+資料流：POST /api/reports → Raw → Channel → ChannelWorker（CAS 認領、冪等寫入）→ ODS；ScanWorker 掃描補回 pending 與逾時的 processing
+
+技術：C# · ASP.NET Core · EF Core · SQL Server · BackgroundService → [查看專案](https://github.com/Johnny-yang912/report-data-pipeline-csharp)
+
+---
+
 ### 🔄 簡易 ETL 練習
 ETL 基礎練習，展示本地資料的轉換與寫入流程。
 
