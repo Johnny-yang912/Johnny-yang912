@@ -21,6 +21,18 @@ Tech: Python · SQL · FastAPI · PostgreSQL · Celery · Redis · Airflow · Bi
 
 ---
 
+### 🏭 Manufacturing Report Ingestion Pipeline (.NET)
+
+A rebuild of the E-commerce Data Ingestion Platform's ingestion layer in ASP.NET Core, with the data domain migrated from e-commerce orders to manufacturing work-order reports.
+
+Validates that the ingestion architecture is portable across tech stacks and data domains: keeps the core design of fast landing, CAS claiming, and flag-don't-reject error handling; replaces Celery + Redis with an in-process BackgroundService + Channel, documenting the trade-offs in crash recovery and burst buffering.
+
+Data flow: POST /api/reports → Raw → Channel → ChannelWorker (CAS claim, idempotent write) → ODS; ScanWorker recovers pending and timed-out processing records
+
+Tech: C# · ASP.NET Core · EF Core · SQL Server · BackgroundService → [View project](https://github.com/Johnny-yang912/report-data-pipeline-csharp)
+
+---
+
 ### 🔄 Simple ETL Practice
 A basic ETL exercise demonstrating local data transformation and loading.
 
